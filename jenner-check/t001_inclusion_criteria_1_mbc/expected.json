@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-13T03:32:00Z",
+  "_captured_run_id": "r_8babda6b962e4060aafc01ef07d9dcb4",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Table crit1_mbc created.",
+    "NOTE: Wrote Demographics (7 rows, 2 columns).",
+    "NOTE: PROC PRINT completed: 4 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

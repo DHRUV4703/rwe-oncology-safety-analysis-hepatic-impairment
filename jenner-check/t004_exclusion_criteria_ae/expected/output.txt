@@ -1,0 +1,6 @@
+                               Final analytic cohort (hepatic-eligible, no pre-index AE)                                
+
+patientid  index_date
+P0005       12FEB2023
+P0007       12FEB2023
+

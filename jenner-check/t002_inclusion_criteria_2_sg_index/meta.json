@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_inclusion_criteria_2_sg_index",
+  "source_file": "Inclusion Criteria 2.sas",
+  "source_blob_sha": "5dd018603a336bb0da83cf8a3826e3d2b742b802",
+  "source_commit": "7467ab101170c90ffa1c07bc7347312ccbd0a75e",
+  "notes": "IC2 finds sacituzumab govitecan drug episodes for the IC1 cohort, filters them to on/after the '22APR2020'd approval date, and takes MIN(sg_date) GROUP BY patientid as each patient's index date. autoexec seeds a stand-in for L0.Extracted_BreastDrugEpisode and the crit1_mbc cohort from IC1; the drug-name filter, date bound, and MIN/GROUP BY logic are unchanged, reading WORK.* instead of L0.*. Added a trailing PROC PRINT to show the index dates."
+}
