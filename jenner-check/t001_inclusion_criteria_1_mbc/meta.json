@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_inclusion_criteria_1_mbc",
+  "source_file": "Inclusion Criteria 1.sas",
+  "source_blob_sha": "d953d23ff297e46254166568e7760e4f69b49cb0",
+  "source_commit": "7467ab101170c90ffa1c07bc7347312ccbd0a75e",
+  "notes": "IC1 identifies adult (>=18) metastatic breast cancer patients via an INNER JOIN of Demographics and Extracted_BreastDiagnosis with a computed Age_At_Diagnosis. The external L0 libname (Flatiron EHR) is not in the repo, so autoexec seeds small WORK stand-ins with the same columns/types and the script reads WORK.* instead of L0.*; the join, metastatic filter, and age expression are unchanged. Added a trailing PROC PRINT to show the resulting cohort."
+}

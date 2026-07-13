@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-13T03:38:00Z",
+  "_captured_run_id": "r_858adee6d361434a8863240eaa3cae21",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Table diag_window created.",
+    "NOTE: Table ae_exclusion_list created.",
+    "NOTE: Table final_cohort created.",
+    "NOTE: PROC PRINT completed: 2 observations printed, 2 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

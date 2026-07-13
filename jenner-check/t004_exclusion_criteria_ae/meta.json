@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_exclusion_criteria_ae",
+  "source_file": "Exclusion Criteria.sas",
+  "source_blob_sha": "5d767cbec3ded2f9d3f0a586b44222685968e744",
+  "source_commit": "7467ab101170c90ffa1c07bc7347312ccbd0a75e",
+  "notes": "Exclusion step finds ICD-10-CM adverse-event diagnoses in the 30 days before each patient's index date (INTCK day-window), builds an AE exclusion list from a large block of code-range predicates, and drops those patients from the cohort with a NOT IN subquery. autoexec seeds a stand-in for L0.Diagnosis and the ic3_hepatic cohort (carrying index_date, which the script reads as c.index_date); the join, INTCK window, AE range predicates, and NOT IN logic are unchanged, reading WORK.Diagnosis instead of L0.Diagnosis. Added a trailing PROC PRINT to show the final cohort."
+}

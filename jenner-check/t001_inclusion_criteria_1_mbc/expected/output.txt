@@ -1,0 +1,8 @@
+                                  IC1: adult (>=18) metastatic breast cancer patients                                   
+
+patientid  birthyear  diagnosisdate  ismetastatic  age_at_diagnosis
+P0001           1958      15MAR2021             1                63
+P0002           1975      02JUN2022             1                47
+P0005           1962      05MAY2020             1                58
+P0007           1980      18JUL2023             1                43
+

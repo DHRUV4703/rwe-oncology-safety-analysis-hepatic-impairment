@@ -1,0 +1,7 @@
+                                   IC2: earliest SG episode (index date) per patient                                    
+
+patientid  index_date
+P0001       01JUL2021
+P0002       20SEP2022
+P0007       12FEB2023
+
